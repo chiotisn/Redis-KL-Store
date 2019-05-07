@@ -1,0 +1,42 @@
+{
+	"datasources": {
+
+		"DB_example": {
+      "id": "1",
+			"type": "db",
+			"dbconnect": {
+				"host": "localhost",
+				"username": "uni",
+				"password": "unipass",
+				"database": "KLStore_DB_example"
+			}
+		},
+
+		"CSV_example": {
+			"id": "2",
+			"type": "csv",
+			"filename": "KLStore_CSV_example.csv",
+			"path": "../test_data/",
+			"delimiter": ",",
+      "has_header": "True"
+		},
+
+		"EXCEL_test": {
+      "id": "3",
+			"type": "excel",
+			"filename": "KLStore_xls_example.xls",
+			"path": "../test_data/",
+      "has_header": "False"
+		},
+
+		"CSV_test": {
+			"id": "4",
+			"type": "csv",
+			"filename": "KLStore_csv_test.csv",
+			"path": "../test_data/",
+			"delimiter": ",",
+      "has_header": "True"
+		}
+
+	}
+}
