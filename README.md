@@ -1,6 +1,6 @@
 # Redis-KL-Store
 A project for storing and proccessing Key-List stores in Redis. These stores can come from different sources: csv/excel file or MySQL database.   
-This project developed for "Big Data Management Systems" course.
+This project developed for "Big Data Management Systems" course. More info about this project can be found [here](https://drive.google.com/file/d/14PU6PwAFce4WgRc2bliFby7VM0X2jmHN/view?usp=sharing).
 
 ## Requirements
 1. python3 
