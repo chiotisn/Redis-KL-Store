@@ -57,6 +57,7 @@ class TestKLStores(unittest.TestCase):
     # insert into test_db (store, sales) values ("st1",120.2);
     # insert into test_db (store, sales) values ("st2",350.45);
     # insert into test_db (store, sales) values ("st3",550.0);
+    @unittest.skip("to run this test, first update your database connection info in data-sources.json ")
     def test_create_KLStore_db(self):
         create_KLStore("test_db", "DB_example", "SELECT store,sales FROM test_db", 0, 0, 1)
         global r
